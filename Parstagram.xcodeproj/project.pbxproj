@@ -10,6 +10,8 @@
 		181FA49D2403732000ECB590 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FA49C2403732000ECB590 /* LoginViewController.swift */; };
 		181FA49F2403734800ECB590 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FA49E2403734800ECB590 /* FeedViewController.swift */; };
 		181FA4A12403840400ECB590 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FA4A02403840400ECB590 /* CameraViewController.swift */; };
+		181FA4A32403964500ECB590 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FA4A22403964500ECB590 /* PostTableViewCell.swift */; };
+		181FA4A7240CBE2B00ECB590 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FA4A6240CBE2B00ECB590 /* CommentCell.swift */; };
 		184A041A240306A60016EA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A0419240306A60016EA60 /* AppDelegate.swift */; };
 		184A041C240306A60016EA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A041B240306A60016EA60 /* SceneDelegate.swift */; };
 		184A0421240306A60016EA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A041F240306A60016EA60 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		181FA49C2403732000ECB590 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		181FA49E2403734800ECB590 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		181FA4A02403840400ECB590 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		181FA4A22403964500ECB590 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		181FA4A6240CBE2B00ECB590 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		184A0416240306A60016EA60 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A0419240306A60016EA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184A041B240306A60016EA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,12 +140,14 @@
 				184A0419240306A60016EA60 /* AppDelegate.swift */,
 				184A041B240306A60016EA60 /* SceneDelegate.swift */,
 				184A041F240306A60016EA60 /* Main.storyboard */,
+				181FA4A22403964500ECB590 /* PostTableViewCell.swift */,
 				184A0422240306A90016EA60 /* Assets.xcassets */,
 				184A0424240306A90016EA60 /* LaunchScreen.storyboard */,
 				184A0427240306A90016EA60 /* Info.plist */,
 				181FA49C2403732000ECB590 /* LoginViewController.swift */,
 				181FA49E2403734800ECB590 /* FeedViewController.swift */,
 				181FA4A02403840400ECB590 /* CameraViewController.swift */,
+				181FA4A6240CBE2B00ECB590 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -418,6 +424,8 @@
 				184A041A240306A60016EA60 /* AppDelegate.swift in Sources */,
 				181FA49F2403734800ECB590 /* FeedViewController.swift in Sources */,
 				184A041C240306A60016EA60 /* SceneDelegate.swift in Sources */,
+				181FA4A32403964500ECB590 /* PostTableViewCell.swift in Sources */,
+				181FA4A7240CBE2B00ECB590 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

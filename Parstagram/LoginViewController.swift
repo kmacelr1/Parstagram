@@ -55,7 +55,7 @@ class LoginViewController: UIViewController {
                 
             }
             else{
-                print("Errr: \(error?.localizedDescription)")
+                print("Erorr: \(error?.localizedDescription)")
             }
         }
         
